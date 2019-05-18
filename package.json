@@ -1,0 +1,24 @@
+{
+  "name": "js-loops",
+  "version": "0.1.0",
+  "description": "Range loops and hopefully more. @todo",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "perf"
+  },
+  "author": "J Pescione <iamdevonbutler@gmail.com> (https://github.com/iamdevonbutler)",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha --ui bdd --bail --colors ./tests/**/*.js",
+    "perf": "NODE_ENV=perf node ./perf/main.perf.js"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=9.0.0"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "js-isequal": "0.2.0",
+    "mocha": "6.1.4"
+  }
+}
