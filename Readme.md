@@ -13,9 +13,11 @@ npm i --save js-loops
 ```javascript
 const $ = require('js-loops');
 
-// @todo or $(1, 100).method()
-$('1-100').forEach(); // Itterates from numbers 1 to 100.
-$('1-100,1000-2000').forEach();
+
+$(10).forEach(i => console.log);
+$(1, 1000).forEach(i => console.log);
+$(1, 1000, 2000, 3000).forEach(i => console.log);
+
 ```
 
 ## API
