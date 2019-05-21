@@ -1,1 +1,2 @@
 loop w/ paramas other than i
+add the merge sort reduce
