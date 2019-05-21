@@ -1,2 +1,3 @@
 loop w/ paramas other than i
 add the merge sort reduce
+your gonna need a changelog for all the new loops, maybe just structure it into the docs e.g. range loop (v0.1.0)
