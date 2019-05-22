@@ -1,1 +1,7 @@
 loop w/ paramas other than i
+
+desructiveProgramming
+- when u modify state outside of function scope
+- destructiveLoops. loops.destructiveReduce(); destructiveMap() ...
+
+@todo add travis build status to repos
