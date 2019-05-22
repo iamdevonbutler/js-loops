@@ -27,7 +27,7 @@ You create a loop by providing a "loop type" and chaining a method(s).
 ```javascript
 const $ = require('js-loops');
 
-$('`LOOP_TYPE`').`METHOD_NAME`();
+$.loop.(obj => {});
 ```
 
 ### Loop types (input)

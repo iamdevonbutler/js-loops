@@ -1,9 +1,6 @@
-const lib = require('../lib');
-const $ = lib;
-
-const mergeSort = require('../lib/ms');
+const mergeSort = require('../lib/mergesort');
 var data = [];
-var i = 1000000;
+var i = 10000000; // 10 million
 while (i--) {
   data.push(Math.round(Math.random() * 10));
 }
@@ -22,17 +19,16 @@ function test(obj, callback) {
   var startTime = Date.now();
   var result = callback.call(null, obj);
   var endTime = Date.now();
-  if (!isSorted(data, result)) {
-    throw new Error('Not properly sorted');
-  }
+  // if (!isSorted(data, result)) {
+    // throw new Error('Not properly sorted');
+  // }
   return endTime - startTime;
 }
 
 var time;
 time = test(data, mergeSort);
 console.log('My merge sort: ', time);
-// time = test(data, sort);
-// console.log('Best not my sort: ', time);
+
 time = test(data, (data1) => {
   return data1.sort(function(a, b) {
     return a - b;
