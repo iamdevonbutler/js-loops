@@ -1,7 +1,12 @@
 loop w/ paramas other than i
+<<<<<<< HEAD
 
 desructiveProgramming
 - when u modify state outside of function scope
 - destructiveLoops. loops.destructiveReduce(); destructiveMap() ...
 
 @todo add travis build status to repos
+=======
+add the merge sort reduce
+your gonna need a changelog for all the new loops, maybe just structure it into the docs e.g. range loop (v0.1.0)
+>>>>>>> 32a0d663d86ca20c6dfb3c5d99d4dc2cd06318cf
